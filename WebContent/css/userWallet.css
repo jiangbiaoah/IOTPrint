@@ -1,0 +1,73 @@
+.h20{
+	height:150px;
+}
+#divContent{
+	width:800px;
+	height:100%;
+	margin:0 auto;
+}
+.main{
+
+}
+.wrap{
+	
+}
+.myWallet{
+	width:300px;
+	height:500px;
+	margin:0 auto;
+}
+
+.money{
+	border-radius: 50%;
+	background-color: #FCC16D;
+	width:251px;
+	height:251px;
+	margin:0 auto;
+	padding-top: 80px;
+	font-family: 宋体 Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.money:hover{
+	background-color: purple;
+	color:yellow;
+}
+p{
+	display:block;
+	font-size: 33px;
+	color:white;
+	text-align: center;
+}
+
+.btn{
+	width:230px;
+	height:50px;
+	background-color: #0498F8;
+	margin:0 auto;
+	margin-left: 33px;
+	border-radius: 320%;
+}
+.btn a{
+	display:block;
+	width:49%;
+	height:100%;
+	/*border-radius: 25%;*/
+	color:black;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 20px;
+	color:yellow;
+	border-radius: 45%;
+	font-family: 宋体 Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.btn .RechargeBtn{
+	float:left;
+	border-right:1.5px solid yellow;
+}
+.btn .seemore{
+	float:right;
+	border-left:1.5px solid yellow;
+}
+.btn a:hover{
+	background-color: #FCC16D;
+	color:purple;
+}

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* 样式表 */
+
+#nav{background-color:white;height: 86px;}
+.collapse{margin-top: 18px;}
+.collapse a{font-family:microsoft Yahei;font-size:16px; color:red;}
+.navbar-toggle{margin-top: 20px;} 
+
+
+#myCarousel{margin-top:85px;}
+ a:focus { outline: none; } 
+.navbar-brand { padding:0; }
+.carousel-inner .item img { margin: 0 auto; } 
+
+.carousel-indicators li{color:#cd4068;}
+
+#footer { padding: 20px; text-align: center; background-color: #eee; border-top: 1px solid #ccc; }
+
+body { font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif; }
+.tab-h2 { font-size: 20px; color: #0059B2; text-align: center; letter-spacing: 1px; } 
+.tab-p { font-size: 15px; color: #999; text-align: center; letter-spacing: 1px; margin: 20px 0 40px 0; }
+.tab1 { margin: 30px 0; color: #666; } 
+.tab1 .media-heading { margin: 5px 0 20px 0; } 
+.tab1 .media-heading {margin: 5px 0 20px 0;}  
+.tab1 .col { padding: 20px; }
+/* 小屏幕（平板，大于等于 768px） */ @media (min-width: 768px) { .tab-h2 { font-size: 26px; } .tab-p { font-size: 16px; } }
+/* 中等屏幕（桌面显示器，大于等于 992px） */ @media (min-width: 992px) { .tab-h2 { font-size: 28px; } .tab-p { font-size: 17px; } }
+/* 大屏幕（大桌面显示器，大于等于 1200px） */ @media (min-width: 1200px) { .tab-h2 { font-size: 30px; } .tab-p { font-size: 18px; } }
+/*
+.jumbotron { margin: 50px 0 0 0; padding: 60px 0; background: #ccc url(../img/20.jpg); color: #ccc; } 
+.jumbotron h1 { font-size: 26px; //768,30; 992,33; 1200,36; padding: 0 0 0 20px;color: black; } 
+.jumbotron h4 { font-size: 16px; //768,16; 992,17; 1200,18 padding: 0 0 0 20px;color: black;}*/
+
+#content{height:532px;}
+#content .about { background-color: #fff; box-shadow: 2px 2px 3px #ccc; padding-bottom: 20px; } 
+#content h3 { margin: 0 0 10px 0;padding: 20px 0; border-bottom: 1px solid #eee; font-size: 18px; //768,19; 992,20; 1200 22;} 
+#content p { line-height: 2; font-size: 13px; //768,14; 992,15; 1200 16; }
+
+#main-nav {
+            margin-left: 1px;
+        }
+ 
+            #main-nav.nav-tabs.nav-stacked > li > a {
+                padding: 10px 8px;
+                font-size: 14px;
+                font-weight: 600;
+                color: #4A515B;
+                background: #E9E9E9;
+                background: -moz-linear-gradient(top, #FAFAFA 0%, #E9E9E9 100%);
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#E9E9E9));
+                background: -webkit-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+                background: -o-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+                background: -ms-linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+                background: linear-gradient(top, #FAFAFA 0%,#E9E9E9 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9');
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAFAFA', endColorstr='#E9E9E9')";
+                border: 1px solid #D5D5D5;
+                border-radius: 4px;
+/*                 height: 50px;
+                padding-left: 30%;
+                padding-top: 7%; */
+            }
+ 
+                #main-nav.nav-tabs.nav-stacked > li > a > span {
+                    color: #4A515B;
+                }
+ 
+                #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover {
+                    color: #FFF;
+                    background: #3C4049;
+                    background: -moz-linear-gradient(top, #4A515B 0%, #3C4049 100%);
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4A515B), color-stop(100%,#3C4049));
+                    background: -webkit-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+                    background: -o-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+                    background: -ms-linear-gradient(top, #4A515B 0%,#3C4049 100%);
+                    background: linear-gradient(top, #4A515B 0%,#3C4049 100%);
+                    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A515B', endColorstr='#3C4049');
+                    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4A515B', endColorstr='#3C4049')";
+                    border-color: #2B2E33;
+                }
+ 
+                    #main-nav.nav-tabs.nav-stacked > li.active > a, #main-nav.nav-tabs.nav-stacked > li > a:hover > span {
+                        color: #FFF;
+                    }
+ 
+            #main-nav.nav-tabs.nav-stacked > li {
+                margin-bottom: 4px;
+            }
+ 
+        /*定义二级菜单样式*/
+        .secondmenu a {
+            font-size: 10px;
+            color: #4A515B;
+            text-align: center;
+        }
+ 
+        .navbar-static-top {
+            background-color: #212121;
+            margin-bottom: 5px;
+        }
+ 
+        .navbar-brand {
+            background: url('') no-repeat 10px 8px;
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 50px;
+            color: #fff;
+        }

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.multipart.saveDir" value="/tmp"/>
+
+	<package name="default" namespace="/" extends="struts-default">
+        <default-action-ref name="index" />
+
+        <global-results>
+            <result name="error">/WEB-INF/jsp/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings>
+
+        <action name="checkLogin" class="com.Atschool.action.CheckLogin">
+			<result name="success">/WEB-INF/jsp/checkLogin.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="editUserInfo" class="com.Atschool.action.EditUserInfo">
+			<result name="success">/WEB-INF/jsp/editUserInfo.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="error" class="com.Atschool.action.Error">
+			<result name="success">/WEB-INF/error.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="onlinePreview" class="com.Atschool.action.OnlinePreview">
+			<result name="success">/WEB-INF/jsp/onlinePreview.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="pay" class="com.Atschool.action.Pay">
+			<result name="success">/WEB-INF/jsp/pay.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="userOrderInfo" class="com.Atschool.action.UserOrderInfo">
+			<result name="success">/userOrder.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="IOTPrintPay" class="com.Atschool.action.IOTPrintPay">
+			<result name="success">/WEB-INF/jsp/IOTPrintPay.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="receivingInfo" class="com.Atschool.action.ReceivingInfo">
+			<result name="success">/WEB-INF/jsp/receivingInfo.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+        <action name="userUpload" class="com.Atschool.action.UserUpload">
+			<result name="success">/WEB-INF/jsp/userUpload.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		<action name="userUploadImg" class="com.Atschool.action.UserUploadImg">
+			<result name="success">/WEB-INF/jsp/userUploadImg.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+    </package>
+
+	<!-- <include file="example.xml"/> -->
+    <!-- Add packages here -->
+</struts>

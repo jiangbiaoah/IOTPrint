@@ -1,0 +1,328 @@
+
+.settings, html {
+    border: 0;
+    line-height: 1.5;
+    height: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+body, button, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+*, :after, :before, body, html {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+*, :after, :before {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, button, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+.global-header {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: transparent;
+    margin-bottom: 15px;
+}
+.global-header, body {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.global-header nav {
+    position: relative;
+    vertical-align: middle;
+    z-index: 1000;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+.global-header .logo {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
+
+
+.global-header img {
+    height: auto;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+
+
+.fade-transition {
+    z-index: 0;
+}
+.fade-enter, .fade-leave, .fade-transition {
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+form {
+    margin-bottom: 0;
+}
+
+
+
+.global-content h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #546673;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.1em;
+}
+.connect-options {
+    margin-bottom: 0;
+}
+.connect-options:after, .connect-options:before {
+    display: table;
+    content: "";
+}
+.connect-options .button, .connect-options button {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 0;
+    background: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #546673;
+    text-align: center;
+    border: 0;
+}
+.connect-options button .auth-container {
+    display: inline-block;
+    padding: 15px;
+    border-radius: 64px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+}
+.github-auth .auth-container {
+    background-color: #000;
+}
+.connect-options button .auth-container img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.connect-options .button, .connect-options button {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 0;
+    background: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #546673;
+    text-align: center;
+    border: 0;
+}
+.connect-options:after, .connect-options:before {
+    display: table;
+    content: "";
+}
+.connect-options:after {
+    clear: both;
+}
+
+
+.global-content .form-heading {
+    font-weight: 400;
+    margin: 12px 0 -8px;
+    font-size: 15px;
+    text-align: center;
+    color: #7f919e;
+}
+.form-heading {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.global-content .error {
+    margin: 15px 0;
+    padding: 10px 15px;
+}
+.alert, .danger, .error {
+    background: #f05f70;
+    color: #fff;
+    border-radius: 3px;
+    text-shadow: none;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.global-content .form-heading {
+    font-weight: 400;
+    margin: 12px 0 -8px;
+    font-size: 15px;
+    text-align: center;
+    color: #7f919e;
+}
+
+.global-content input {
+    width: 100%;
+}
+input {
+    border: 1px solid #c2c9d4;
+    box-shadow: none;
+    border-radius: 3px;
+    margin: 0 auto!important;
+}
+
+
+.button-container {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.button {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-weight: 500;
+    padding: 8px 10px;
+    display: inline-block;
+}
+.submit {
+    float: left;
+    line-height: 26px;
+    border-radius: 3px;
+    padding: 8px 12px;
+    background: rgba(46,159,255,.7);
+    color: #fff;
+    border: 1px solid rgba(46,159,255,.7);
+    width: 47.5%;
+    margin: 20px auto 0!important;
+    font-weight: 600;
+    position: relative;
+}
+.submit{}
+.submit:hover{
+    background-color: #234970;
+}
+
+
+
+.submit .spinner {
+    display: none;
+}
+.spinner {
+    z-index: 50;
+    width: 20px;
+    height: 20px;
+    border-radius: 28px;
+    border: 2px solid transparent;
+    border-color: transparent #7f919e;
+    -webkit-animation: rotate-loading 1.2s linear 0s infinite normal;
+    animation: rotate-loading 1.2s linear 0s infinite normal;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.btn-secondary {
+    margin: 20px auto 0;
+    width: 47.5%;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 12px;
+    text-align: center;
+    float: right;
+    border-radius: 3px;
+    color: #2e9fff;
+    -webkit-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+    border: 1px solid rgba(46,159,255,.5);
+}
+
+.forgot-container {
+    text-align: center;
+    margin: 25px 0 -10px;
+}
+
+.forgot-container a {
+    color: #7f919e;
+    font-size: 15px;
+}
+
+.text-white, footer {
+    color: #e4edf5;
+}
+footer{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: block!important;
+    position: relative;
+    height: 80px;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+
+.text-smaller {
+    font-size: 12px;
+}
+.text-smaller {
+    font-size: 12px;
+}
+.text-white, footer {
+    color: #e4edf5;
+}
+span.bullet {
+    font-family: Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+#eName{
+    height:40px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

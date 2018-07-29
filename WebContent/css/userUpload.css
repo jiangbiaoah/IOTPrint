@@ -1,0 +1,125 @@
+
+html,body {
+    font-family: "微软雅黑";font-size: 18px;height: 100%;
+    }
+#main111{padding-top: 15px;margin:0 auto;min-height: 70%;}
+
+.h20{height:5px;}
+* {margin: 0 auto;}
+div {display: block;}
+
+.wrap {
+    margin:0 auto;
+    width:1000px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+    padding: 20px;}
+.uploading {overflow: hidden;}
+.uploading .upleft {
+    border: 1px solid #0498f8;
+    border-radius: 3px;
+    height: 41px;
+    width: 155px;
+    text-align: center;
+    float: left;
+    line-height: 41px;
+    font-size: 16px;
+    position: relative;}
+.uploading .upleft:hover{
+    background: blue;
+    color:yellow;
+    /*font-style: yellow;*/}
+a {
+    color: #666;
+    text-decoration: none;
+    outline: none;
+    border: none;}
+.uploading .upleft a:hover{color:yellow;}
+
+.uploading .upright {
+    margin: 15px 0 0 10px;
+    font-size: 14px;
+    float: left;
+    color: #b8b8b8;}
+.clear {clear: both;}
+
+.border_tab2 {
+    border: 1px solid #f0f0f0;
+    font-size: 12px;
+    color: #666;}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;}
+.border_tab2 th {
+    height: 50px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 50px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0498f8;
+    text-align: center;}
+td, th {
+    display: table-cell;
+    vertical-align: inherit;}
+.border_tab2 td {
+    height: 50px;
+    border-bottom: 1px solid #f0f0f0;
+    line-height: 50px;}
+.submitOrder {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background: #0498f8;
+    border: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;}
+fieldset, img {border: 0;}
+.dataNone {
+    width: 99%;
+    height: 500px;
+    background: url(../Image/upload0.png) no-repeat center;}
+.btn_upload {
+    border: 0;
+    width: 344px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 502px;
+    margin-top: 341px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #0498f8;
+    border-radius: 5px 5px 5px 5px;}
+
+.trcount #DocCopies0{
+    border:0;
+}
+
+
+#SubDocBtn{
+    border: 1px solid #0498f8;
+    border-radius: 3px;
+    height: 41px;
+    width: 125px;
+    text-align: center;
+    float: left;
+    line-height: 41px;
+    font-size: 16px;
+    position: relative;
+}
+
+#SubDocBtn a{
+}
+#SubDocBtn:hover{
+    font-color:yellow;
+}
